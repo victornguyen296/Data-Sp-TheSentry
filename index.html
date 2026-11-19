@@ -108,7 +108,7 @@ code{font-family:var(--f-mono);font-size:12.5px;background:var(--bg);padding:2px
 <script>
 const P = {
   SON:"Sonatus", TSC:"The Sentry C – 15 Lê Thánh Tôn", TSP:"The Sentry P – 16 Nguyễn Đăng Giai",
-  TSQ:"The Sentry Q – trong Orbital 2, dự án riêng", TSL:"The Sentry Life – 15B12A",
+  TSQ:"The Sentry Q – trong Orbital 2", TSL:"The Sentry Life – 15B12A",
   TSH:"The Sentry H – 15B8", TSZ:"The Sentry Z – 25 Nguyễn Bỉnh Khiêm",
   OB1:"Orbital 1", OB2:"Orbital 2", HVH:"HVH – Hồng Hà"
 };
@@ -178,7 +178,7 @@ const TREE = [
  {name:"10_BOD", note:"Ban giám đốc, hợp đồng, dự án mở rộng", owner:"BOD",
   from:["Head Office / Contracts & Lease Agreements","Head Office / Handover Nigel + Brian","Expansion Projects, Pitches","Site - TD Tower, Site - Toshin"],
   children:[HO,{name:"EXP",note:"Dự án đang khảo sát (DongThap, Phu Nhuan…)"},
-    {name:"TDT",note:"TD Tower – dự án riêng của Sếp"},{name:"TOS",note:"Toshin – dự án riêng của Sếp"},
+    {name:"TDT",note:"TD Tower"},{name:"TOS",note:"Toshin"},
     ...Object.keys(P).map(k=>({name:k,note:P[k]+" (hợp đồng, bàn giao, họp)"}))]},
  {name:"20_LEASING", note:"Kinh doanh, chào giá, proposal, membership", owner:"Leasing",
   from:["The Sentry / LEASING / TSC, TSP, TSQ, TSL, TSZ, SONATUS, Orbital 1.0 & 2.0","Membership Agreements, Leasing Enquiries, Promotion Proposal Versions","Site - <tòa> / Leasing, Leasing proposal"],
